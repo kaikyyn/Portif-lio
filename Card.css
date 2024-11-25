@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(0, 200, 255);
+    border-radius: 5pt;
+    flex: 1 1 100px;
+    padding: 2pt 0 2pt 0;
+    margin: 2pt;
+    display: grid;
+    min-width: 200px;
+}
+.card:hover{
+    border: black;
+    transition: 1s;
+}
